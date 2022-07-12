@@ -21,7 +21,7 @@ namespace testapp
             {
                 foreach (ValidationFailure failure in results.Errors)
                 {
-                    errors.Add($"{failure.PropertyName}: {failure.ErrorMessage}");
+                    errors.Add($"{failure.ErrorMessage}");
                 }
             }
 
