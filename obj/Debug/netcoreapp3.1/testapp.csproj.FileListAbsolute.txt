@@ -1,0 +1,15 @@
+/home/meshmind/testapp/bin/Debug/netcoreapp3.1/testapp
+/home/meshmind/testapp/bin/Debug/netcoreapp3.1/testapp.deps.json
+/home/meshmind/testapp/bin/Debug/netcoreapp3.1/testapp.runtimeconfig.json
+/home/meshmind/testapp/bin/Debug/netcoreapp3.1/testapp.runtimeconfig.dev.json
+/home/meshmind/testapp/bin/Debug/netcoreapp3.1/testapp.dll
+/home/meshmind/testapp/bin/Debug/netcoreapp3.1/testapp.pdb
+/home/meshmind/testapp/obj/Debug/netcoreapp3.1/testapp.csprojAssemblyReference.cache
+/home/meshmind/testapp/obj/Debug/netcoreapp3.1/testapp.AssemblyInfoInputs.cache
+/home/meshmind/testapp/obj/Debug/netcoreapp3.1/testapp.AssemblyInfo.cs
+/home/meshmind/testapp/obj/Debug/netcoreapp3.1/testapp.csproj.CoreCompileInputs.cache
+/home/meshmind/testapp/obj/Debug/netcoreapp3.1/testapp.dll
+/home/meshmind/testapp/obj/Debug/netcoreapp3.1/testapp.pdb
+/home/meshmind/testapp/obj/Debug/netcoreapp3.1/testapp.genruntimeconfig.cache
+/home/meshmind/testapp/bin/Debug/netcoreapp3.1/FluentValidation.dll
+/home/meshmind/testapp/obj/Debug/netcoreapp3.1/testapp.csproj.CopyComplete
