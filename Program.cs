@@ -12,7 +12,7 @@ namespace testapp
         {
             BindingList<string> errors = new BindingList<string>();
             Console.WriteLine("Hello World!");
-            Person person = new Person{id = 1, name = "S12", accountBalance = 0};
+            Person person = new Person{id = 1, name = "Semir", accountBalance = 0, date = new DateTime(2015,12,31)};
 
             PersonValidator validator = new PersonValidator();
             ValidationResult results = validator.Validate(person);

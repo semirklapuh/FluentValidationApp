@@ -11,8 +11,11 @@ namespace testapp.Validators
             RuleFor(p => p.name)
             .Cascade(CascadeMode.StopOnFirstFailure)
             .NotEmpty().WithMessage("{PropertyName} is empty")
-            .Length(2, 50).WithMessage("Lenght of {PropertyName} is invalide")
+            .Length(2, 50).WithMessage("Lenght ({TotalLength}) of {PropertyName} is invalide")
             .Must(BeAValidName).WithMessage("{PropertyName} contains invalid characters");
+
+            RuleFor(p => p.date)
+            .Must(BeAValidAge).WithMessage("Invalid {PropertyName}");
             
         }
 
@@ -21,6 +24,20 @@ namespace testapp.Validators
             name = name.Replace(" ", "");
             name = name.Replace("-", "");
             return Regex.IsMatch(name, @"^[a-zA-Z]+$");
+        }
+
+         protected bool BeAValidAge(DateTime date)
+        {
+            
+            int currentYear = DateTime.Now.Year;
+            int dobYear = date.Year;
+
+            if(dobYear <= currentYear && dobYear > (currentYear - 120))
+            {
+                return true;
+            }
+
+            return false;
         }
     }
 
